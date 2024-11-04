@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+function TestComponent(){
+  return (
+    <p>This is a test</p>
+  );
+}
+
 function App() {
   return (
     <div className="App">
-      <p>Hello World</p>
+      <TestComponent />
     </div>
   );
 }
