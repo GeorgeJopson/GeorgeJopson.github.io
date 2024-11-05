@@ -35,8 +35,18 @@
 .title{
   color: #747fe0;
   font-size: 4.5em;
+  margin-bottom: 10px;
 }
 
+.subtitle{
+  color: #747fe0;
+  font-size: 1em;
+}
+
+.titleBox{
+  display:flex;
+  text-align: left;
+}
 
 /* Tablet view */
 @media (max-width: 768px) {
@@ -53,10 +63,11 @@
 /* Mobile view */
 @media (max-width: 480px) {
   .profilePicWrapper{
-    width: 75%;
-    height: 75%;
+    width: 65%;
+    height: 65%;
   }
   .title {
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
 }
+

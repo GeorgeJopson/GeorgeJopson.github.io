@@ -11,7 +11,13 @@ function Header(){
           alt='George Jopson standing in front of the Difference Engine'
           />
       </div>
-      <h1 className='title robotoRegular'>George Jopson</h1>
+      <div className="titleBox">
+        <h1 className="title robotoRegular">&gt;</h1>
+        <div>
+          <h1 className='title robotoRegular'>George Jopson</h1>
+          <p className="subtitle robotoRegular"> Junior Software Developer</p>
+        </div>
+      </div>
     </div>
 
   );
