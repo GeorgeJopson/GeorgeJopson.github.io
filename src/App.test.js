@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders test message', () => {
   render(<App />);
-  const testMessage = screen.getByText(/This is a test/i);
-  expect(testMessage).toBeInTheDocument();
+  const title = screen.getByText(/George Jopson/i);
+  expect(title).toBeInTheDocument();
 });
