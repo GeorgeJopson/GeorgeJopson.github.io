@@ -7,7 +7,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 5%;
+  margin: 0 5% 5% 0;
+  background-color: #747fe0;
+  border-radius: 0 0 50px 0;
+  padding: 5%;
 }
 
 .profilePicWrapper{
@@ -15,10 +18,6 @@
   height: 25%;
   border-radius: 50%;
   overflow: hidden;
-}
-
-.profilePicWrapper:hover{
-  box-shadow: 5px 5px 5px rgb(116, 127,224,0.5);
 }
 
 .profilePic {
@@ -33,19 +32,32 @@
 }
 
 .title{
-  color: #747fe0;
+  color: #f6f9fc;
   font-size: 4.5em;
   margin-bottom: 10px;
 }
 
 .subtitle{
-  color: #747fe0;
+  color: #f6f9fc;
   font-size: 1em;
 }
 
 .titleBox{
   display:flex;
   text-align: left;
+}
+
+.btn-outline-primary{
+  color: #f6f9fc;
+  border-color: #f6f9fc;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #f6f9fc; /* Change to your desired color */
+  color: #747fe0;
+  border-color: #f6f9fc;     /* Border color to match background */
 }
 
 /* Tablet view */
