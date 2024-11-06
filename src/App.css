@@ -50,14 +50,17 @@
 .btn-outline-primary{
   color: #f6f9fc;
   border-color: #f6f9fc;
+  width: 100%;
+  height: 30%;
+  font-size: 2em;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
-.btn-outline-primary:active {
-  background-color: #f6f9fc; /* Change to your desired color */
-  color: #747fe0;
-  border-color: #f6f9fc;     /* Border color to match background */
+.btn-outline-primary:active{
+  background-color: #f6f9fc !important; 
+  color: #747fe0 !important;
+  border-color: #f6f9fc !important;
 }
 
 /* Tablet view */
