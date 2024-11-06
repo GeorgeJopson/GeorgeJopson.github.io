@@ -16,7 +16,9 @@ function Header(){
         <div>
           <h1 className='title robotoRegular'>George Jopson</h1>
           <p className="subtitle robotoRegular"> Junior Software Developer</p>
-          <button type="button" className="btn btn-outline-primary btn-large robotoMedium">Download CV</button>
+          <a href={`${process.env.PUBLIC_URL}/George-Jopson-CV.pdf`} target="_blank" rel="noreferrer">
+            <button type="button" className="btn btn-outline-primary btn-large robotoMedium">Download CV</button>
+          </a>
         </div>
       </div>
     </div>
