@@ -47,6 +47,10 @@
   text-align: left;
 }
 
+.btn{
+  --bs-btn-padding-y: 0;
+}
+
 .btn-outline-primary{
   color: #f6f9fc;
   border-color: #f6f9fc;
