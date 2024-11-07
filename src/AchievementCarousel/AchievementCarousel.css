@@ -1,8 +1,6 @@
-.carouselItem1{
+.carouselItem{
   height:100px;
-  background-color: blue;
-}
-.carouselItem2{
-  height:100px;
-  background-color: red;
+  background-color: #747fe0;
+  margin: 10px;
+  border-radius:10px;
 }
