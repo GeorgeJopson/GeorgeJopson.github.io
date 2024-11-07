@@ -4,6 +4,8 @@ import '../fonts.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import achievementData from "./achievements.json"
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -22,6 +24,11 @@ const responsive = {
   }
 };
 function AchievementCarousel(){
+  const achievements = achievementData.achievements
+  const carouselItems = achievements.map(achievement=>
+    <div className="carouselItem robotoBold">{achievement.title}</div> 
+  );
+  window.alert(carouselItems)
   return(
     <Carousel
       swipeable={true}
@@ -39,10 +46,7 @@ function AchievementCarousel(){
       itemClass="carousel-item-padding-40-px"
       slidesToSlide={1}
     >
-      <div className="carouselItem robotoBold">Item 1</div>
-      <div className="carouselItem robotoBold">Item 2</div>
-      <div className="carouselItem robotoBold">Item 3</div>
-      <div className="carouselItem robotoBold">Item 4</div>
+      {carouselItems}
     </Carousel>
   );
 }
