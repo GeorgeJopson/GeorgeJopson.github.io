@@ -25,8 +25,18 @@ const responsive = {
 };
 function AchievementCarousel(){
   const achievements = achievementData.achievements
-  const carouselItems = achievements.map(achievement=>
-    <div className="carouselItem robotoMedium">{achievement.title}</div> 
+  const carouselItems = achievements.map(achievement=>{
+    let titleText = achievement.title
+    if (titleText.length>40){
+      titleText= titleText.slice(0,37) +"..."
+    }
+    return (
+      <div className="carouselItem">
+        <p className="robotoMedium carouselItemText">{titleText}</p>
+      </div>
+    );
+  }
+    
   );
   return(
     <Carousel
@@ -35,7 +45,7 @@ function AchievementCarousel(){
       responsive={responsive}
       ssr={true} // means to render carousel on server-side.
       infinite={true}
-      autoPlay={true}
+      autoPlay={false}
       autoPlaySpeed={3000}
       keyBoardControl={true}
       customTransition="transform 0.7s ease-in-out" // smoother transition

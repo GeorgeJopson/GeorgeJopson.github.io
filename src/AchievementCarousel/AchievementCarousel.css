@@ -1,13 +1,21 @@
 .carouselItem{
-  height:100px;
   background-color: #EF767A;
   color: #f6f9fc;
-  margin: 10px;
   padding: 10px;
   border-radius:10px;
   font-size: 2em;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
+  text-align: left;
+
+  height: 90%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.carouselItemText{
+  margin-bottom:0;
 }
