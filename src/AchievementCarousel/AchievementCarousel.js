@@ -26,9 +26,8 @@ const responsive = {
 function AchievementCarousel(){
   const achievements = achievementData.achievements
   const carouselItems = achievements.map(achievement=>
-    <div className="carouselItem robotoBold">{achievement.title}</div> 
+    <div className="carouselItem robotoMedium">{achievement.title}</div> 
   );
-  window.alert(carouselItems)
   return(
     <Carousel
       swipeable={true}
