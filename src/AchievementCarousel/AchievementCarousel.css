@@ -1,6 +1,12 @@
 .carouselItem{
   height:100px;
   background-color: #747fe0;
+  color: #f6f9fc;
   margin: 10px;
   border-radius:10px;
+  font-size: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

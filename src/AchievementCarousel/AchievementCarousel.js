@@ -39,10 +39,10 @@ function AchievementCarousel(){
       itemClass="carousel-item-padding-40-px"
       slidesToSlide={1}
     >
-      <div className="carouselItem">Item 1</div>
-      <div className="carouselItem">Item 2</div>
-      <div className="carouselItem">Item 3</div>
-      <div className="carouselItem">Item 4</div>
+      <div className="carouselItem robotoBold">Item 1</div>
+      <div className="carouselItem robotoBold">Item 2</div>
+      <div className="carouselItem robotoBold">Item 3</div>
+      <div className="carouselItem robotoBold">Item 4</div>
     </Carousel>
   );
 }
