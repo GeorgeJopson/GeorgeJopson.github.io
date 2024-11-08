@@ -18,7 +18,16 @@
 }
 
 .carouselItemText{
+  display: -webkit-box;
+  line-clamp:2;
+  -webkit-line-clamp:2;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   margin-bottom:0;
+  font-size: 1em;
+  line-height:1.3em;
+  height:3.2em;
 }
 
 .seeMore{
