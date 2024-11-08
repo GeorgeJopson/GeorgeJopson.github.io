@@ -2,12 +2,13 @@
   background-color: #EF767A;
   color: #f6f9fc;
   padding: 10px;
+  padding-bottom: 2em;
   border-radius:10px;
   font-size: 2em;
 
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
 
   text-align: left;
 
@@ -18,4 +19,9 @@
 
 .carouselItemText{
   margin-bottom:0;
+}
+
+.seeMore{
+  position: absolute;
+  bottom: 5%;
 }

@@ -27,12 +27,13 @@ function AchievementCarousel(){
   const achievements = achievementData.achievements
   const carouselItems = achievements.map(achievement=>{
     let titleText = achievement.title
-    if (titleText.length>40){
-      titleText= titleText.slice(0,37) +"..."
+    if (titleText.length>36){
+      titleText= titleText.slice(0,33) +"..."
     }
     return (
       <div className="carouselItem">
         <p className="robotoMedium carouselItemText">{titleText}</p>
+        <p className="seeMore">See More ...</p>
       </div>
     );
   }
