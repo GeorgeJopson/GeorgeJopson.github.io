@@ -1,9 +1,11 @@
 .carouselItem{
   background-color: #EF767A;
   color: #f6f9fc;
+
   padding: 10px;
   border-radius:10px;
-  font-size: 2em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 
   display: flex;
   align-items: flex-start;
@@ -11,10 +13,9 @@
   justify-content:space-between;
 
   text-align: left;
+  font-size: 2em;
 
   height: 90%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
 }
 
 .carouselItemText{
@@ -24,16 +25,18 @@
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin-bottom:0;
+
   font-size: 1em;
   line-height:1.3em;
   height:3.1em;
+
   margin-bottom:10px;
 }
 
 
 .btnSeeMore{
   font-size: 1em;
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
