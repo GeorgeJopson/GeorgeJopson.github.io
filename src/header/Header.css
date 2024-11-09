@@ -3,10 +3,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 0 5% 5px 0;
-  background-color: #747fe0;
+
+  margin: 0 5% 15px 0;
+  padding: 4%;
   border-radius: 0 0 50px 0;
-  padding: 5%;
+
+  background-color: #747fe0;
 }
 
 .profilePicWrapper{
@@ -49,6 +51,9 @@
 
 /* Tablet view */
 @media (max-width: 768px) {
+  .header{
+    padding: 5%;
+  }
   .profilePicWrapper{
     width: 50%;
     height: 50%;
@@ -56,11 +61,13 @@
   .title {
     font-size: 3.5em;
   }
-
 }
 
 /* Mobile view */
 @media (max-width: 480px) {
+  .header{
+    padding:7%;
+  }
   .profilePicWrapper{
     width: 65%;
     height: 65%;
