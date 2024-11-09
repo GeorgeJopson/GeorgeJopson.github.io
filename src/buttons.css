@@ -1,0 +1,14 @@
+.btnRegular{
+  --bs-btn-padding-y: 0;
+  color: #f6f9fc;
+  border-color: #f6f9fc;
+  width: 100%;
+}
+
+.btnRegular:hover,
+.btnRegular:focus,
+.btnRegular:active{
+  background-color: #f6f9fc !important; 
+  color: #747fe0 !important;
+  border-color: #f6f9fc !important;
+}

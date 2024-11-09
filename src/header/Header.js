@@ -1,5 +1,6 @@
 import './Header.css';
 import '../fonts.css';
+import '../buttons.css';
 
 function Header(){
   return (
@@ -39,7 +40,7 @@ function HeaderTitleoBox(){
 function DownloadCVButton(){
   return(
     <a className="downloadAnchor" href={`${process.env.PUBLIC_URL}/George-Jopson-CV.pdf`} target="_blank" rel="noreferrer">
-      <button type="button" className="btn btn-outline-primary btn-large robotoMedium">Download CV</button>
+      <button type="button" className="btn btn-outline-primary btn-large robotoMedium btnRegular btnCV">Download CV</button>
     </a>
   );
 }

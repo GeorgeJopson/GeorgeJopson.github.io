@@ -34,7 +34,7 @@ function AchievementCarousel(){
     return (
       <div className="carouselItem">
         <p className="robotoMedium carouselItemText">{titleText}</p>
-        <button className="seeMore btn btn-outline-primary">See More ...</button>
+        <button className="btnSeeMore btn btn-outline-primary btnRegular">See More ...</button>
       </div>
     );
   }
