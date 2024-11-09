@@ -2,13 +2,13 @@
   background-color: #EF767A;
   color: #f6f9fc;
   padding: 10px;
-  padding-bottom: 2em;
   border-radius:10px;
   font-size: 2em;
 
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction:column;
+  justify-content:space-between;
 
   text-align: left;
 
@@ -27,10 +27,22 @@
   margin-bottom:0;
   font-size: 1em;
   line-height:1.3em;
-  height:3.2em;
+  height:3em;
 }
 
+
 .seeMore{
-  position: absolute;
-  bottom: 5%;
+  --bs-btn-padding-y: 0;
+
+  color: #f6f9fc;
+  border-color: #f6f9fc;
+  font-size: 1em;
+}
+
+.seeMore:hover,
+.seeMore-primary:focus,
+.seeMore:active{
+  background-color: #f6f9fc !important; 
+  color: #747fe0 !important;
+  border-color: #f6f9fc !important;
 }
