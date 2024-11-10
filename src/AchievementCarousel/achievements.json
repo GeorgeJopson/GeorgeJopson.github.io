@@ -1,10 +1,28 @@
 {
   "achievements":[
-    {"title":"Russel Group Uni Student (York)"},
-    {"title":"Commended in Business, Innovation & Entrepreneurship Course"},
-    {"title":"4.5 Star Edinburgh Fringe Performer"},
-    {"title":"Year of Development Experience at Sanger"},
-    {"title":"Proficient in Python, Java, and Web Dev"},
-    {"title":"Six 90%-100% Uni Module Grades"}
+    {
+      "title":"Russel Group Uni Student (York)",
+      "content":"I attend the prestigious University of York (Russel Group) completing my BEng in Computer Science."
+    },
+    {
+      "title":"Commended in Business, Innovation & Entrepreneurship Course",
+      "content":"I took an optional module on businesses development, focusing on early stages of project ideation. I worked in a team to pitch an ethical social media company in a “Dragon’s Den” type scenario. Our idea received a commended award and progressed to a second round of university wide pitching."
+    },
+    {
+      "title":"4.5 Star Edinburgh Fringe Performer",
+      "content":"I am the co-ordinary committee member for Comedy Society at the University of York and a member of the improvised comedy troupe the Shambles. With the Shambles I performed nightly in a 4.5 star run at the Edinburgh Fringe for two and a half weeks. This taught me teamwork to a high level in stressful environments, as we had to work collaboratively to build scenes together."
+    },
+    {
+      "title":"Year of Development Experience at Sanger",
+      "content":"I worked for a year at the Wellcome Sanger Institute as a Software Developer."
+    },
+    {
+      "title":"Proficient in Python, Java, and Web Dev",
+      "content":"Proficient in Python because I worked for a year using it. Used Java heavily in university. Proficient in basic web development, such as React which was used to create this website."
+    },
+    {
+      "title":"Six 90%-100% Uni Module Grades",
+      "content":"Achieved top tier grades in Uni."
+    }
   ]
 }

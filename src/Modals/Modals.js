@@ -1,4 +1,5 @@
 import './Modals.css'; 
+import '../fonts.css';
 
 function Modals({openModalIndex, modalsInfo, modalClose}) {
   const modals = modalsInfo.map((modalInfo,index)=>{
@@ -17,7 +18,8 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
         onClick={handleModalClick}
       >
         <div class="modal-content">
-          <p>We are at modal: {modalInfo.title}</p>
+          <h1 className="robotoBold">{modalInfo.title}</h1>
+          <p className="robotoRegular">{modalInfo.content}</p>
           <button onClick={modalClose}>Close</button>
         </div>
       </div>

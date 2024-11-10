@@ -43,7 +43,8 @@ function AchievementCarousel(){
   );
   const modalsInfo = achievements.map((achievement)=>{
     return {
-      title:achievement.title
+      title:achievement.title,
+      content:achievement.content
     }
   });
 
