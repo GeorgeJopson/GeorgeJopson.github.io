@@ -9,6 +9,10 @@ import achievementData from "./achievements.json"
 
 import { isMobile } from "react-device-detect";
 
+import { useState } from 'react';
+
+import Modals from "../Modals/Modals.js"
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -28,33 +32,39 @@ const responsive = {
 };
 
 function AchievementCarousel(){
+  const [modalOpen, setModalOpen] = useState(-1);
+
   const achievements = achievementData.achievements
-  const carouselItems = achievements.map(achievement=>
-      <div className="carouselItem" key={achievement.title}>
+  const carouselItems = achievements.map((achievement, index)=>
+      <div className="carouselItem" key={index}>
         <p className="robotoMedium carouselItemText">{achievement.title}</p>
-        <button className="btnSeeMore btn btn-outline-primary btnRegular">See More ...</button>
+        <button className="btnSeeMore btn btn-outline-primary btnRegular" onClick={()=>setModalOpen(index)}>See More ...</button>
       </div>
   );
 
   return(
-    <Carousel
-      swipeable={true}
-      draggable={true}
-      responsive={responsive}
-      ssr={true}
-      infinite={true}
-      autoPlay={isMobile === false}
-      autoPlaySpeed={3000}
-      keyBoardControl={true}
-      customTransition="transform 0.7s ease-in-out"
-      transitionDuration={700}
-      containerClass="carousel-container"
-      dotListClass="custom-dot-list-style"
-      itemClass="carousel-item-padding-40-px"
-      slidesToSlide={1}
-    >
-      {carouselItems}
-    </Carousel>
+    <div>
+      <Modals modalOpen={modalOpen} modalsInfo={[0,1,2,3,4,5]} modalClose={()=>setModalOpen(-1)}/>
+      <Carousel
+        swipeable={true}
+        draggable={true}
+        responsive={responsive}
+        ssr={true}
+        infinite={true}
+        autoPlay={isMobile === false}
+        autoPlaySpeed={3000}
+        keyBoardControl={true}
+        customTransition="transform 0.7s ease-in-out"
+        transitionDuration={700}
+        containerClass="carousel-container"
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        slidesToSlide={1}
+      >
+        {carouselItems}
+      </Carousel>
+    </div>
+
   );
 }
 

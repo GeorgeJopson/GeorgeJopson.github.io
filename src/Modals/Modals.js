@@ -1,6 +1,6 @@
 import './Modals.css'; 
 
-function Modals({modalOpen, modalsInfo}) {
+function Modals({modalOpen, modalsInfo, modalClose}) {
   let modals = []
   let currentModal = 0
   for(let modalInfo in modalsInfo){
@@ -14,6 +14,7 @@ function Modals({modalOpen, modalsInfo}) {
       <div className={"modal "+modalClass}>
         <div class="modal-content">
           <p>We are at modal: {modalInfo}</p>
+          <button onClick={modalClose}>Close</button>
         </div>
       </div>
     )
