@@ -16,6 +16,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
       <div 
         className={"modal "+modalClass}
         onClick={handleModalClick}
+        key={index}
       >
         <div class="modal-content">
           <h1 className="robotoBold">{modalInfo.title}</h1>
