@@ -18,7 +18,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
         onClick={handleModalClick}
         key={index}
       >
-        <div class="modal-content">
+        <div className="modal-content">
           <h1 className="robotoBold">{modalInfo.title}</h1>
           <p className="robotoRegular">{modalInfo.content}</p>
           <button onClick={modalClose}>Close</button>
