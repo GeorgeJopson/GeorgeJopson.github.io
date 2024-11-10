@@ -5,8 +5,8 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
     let modalClass = (index === openModalIndex) ? "modalActive" : "modalHidden";
 
     const handleModalClick = (event) => {
-      // Only close the modal if the click is outside of `.modal-content`
-      if (!event.target.closest('.modal-content')) {
+      const clickOutsideOfModalContent = !event.target.closest('.modal-content')
+      if (clickOutsideOfModalContent) {
         modalClose();
       }
     };
