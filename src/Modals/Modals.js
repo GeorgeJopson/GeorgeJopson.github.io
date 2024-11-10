@@ -5,7 +5,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
   const modals = modalsInfo.map((modalInfo,index)=>{
     let modalClass = (index === openModalIndex) ? "modalActive" : "modalHidden";
 
-    const handleModalClick = (event) => {
+    const handleOutsideModalClick = (event) => {
       const clickOutsideOfModalContent = !event.target.closest('.modal-content')
       if (clickOutsideOfModalContent) {
         modalClose();
@@ -15,7 +15,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
     return(
       <div 
         className={"modal "+modalClass}
-        onClick={handleModalClick}
+        onClick={handleOutsideModalClick}
         key={index}
       >
         <div className="modal-content">
