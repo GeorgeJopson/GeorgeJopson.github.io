@@ -32,19 +32,22 @@ const responsive = {
 };
 
 function AchievementCarousel(){
-  const [modalOpen, setModalOpen] = useState(-1);
+  const [openModalIndex, setOpenModalIndex] = useState(-1);
 
   const achievements = achievementData.achievements
   const carouselItems = achievements.map((achievement, index)=>
       <div className="carouselItem" key={index}>
         <p className="robotoMedium carouselItemText">{achievement.title}</p>
-        <button className="btnSeeMore btn btn-outline-primary btnRegular" onClick={()=>setModalOpen(index)}>See More ...</button>
+        <button className="btnSeeMore btn btn-outline-primary btnRegular" onClick={()=>setOpenModalIndex(index)}>See More ...</button>
       </div>
   );
+  const modalsInfo = achievements.map((achievement)=>{
+    return achievement.title
+  });
 
   return(
     <div>
-      <Modals modalOpen={modalOpen} modalsInfo={[0,1,2,3,4,5]} modalClose={()=>setModalOpen(-1)}/>
+      <Modals modalOpen={openModalIndex} modalsInfo={modalsInfo} modalClose={()=>setOpenModalIndex(-1)}/>
       <Carousel
         swipeable={true}
         draggable={true}

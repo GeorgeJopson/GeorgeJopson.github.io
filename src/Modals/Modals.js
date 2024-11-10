@@ -3,7 +3,8 @@ import './Modals.css';
 function Modals({modalOpen, modalsInfo, modalClose}) {
   let modals = []
   let currentModal = 0
-  for(let modalInfo in modalsInfo){
+  for(const modalInfo of modalsInfo){
+    console.log(modalInfo)
     let modalClass = "";
     if (currentModal === modalOpen){
       modalClass = "modalActive";
