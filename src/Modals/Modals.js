@@ -1,17 +1,10 @@
 import './Modals.css'; 
 
 function Modals({openModalIndex, modalsInfo, modalClose}) {
-  let modals = []
-  let currentModal = 0
-  for(const modalInfo of modalsInfo){
-    console.log(modalInfo)
-    let modalClass = "";
-    if (currentModal === openModalIndex){
-      modalClass = "modalActive";
-    }else{
-      modalClass = "modalHidden";
-    }
-    modals.push(
+  const modals = modalsInfo.map((modalInfo,index)=>{
+    let modalClass = (index === openModalIndex) ? "modalActive" : "modalHidden";
+
+    return(
       <div className={"modal "+modalClass}>
         <div class="modal-content">
           <p>We are at modal: {modalInfo.title}</p>
@@ -19,8 +12,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
         </div>
       </div>
     )
-    currentModal ++;
-  }
+  });
 
   return(
     modals
