@@ -1,6 +1,8 @@
 import './Modals.css'; 
 import '../fonts.css';
 
+import closeCross from '../images/close.svg';
+
 function Modals({openModalIndex, modalsInfo, modalClose}) {
   const modals = modalsInfo.map((modalInfo,index)=>{
     let modalClass = (index === openModalIndex) ? "modalActive" : "modalHidden";
@@ -19,9 +21,11 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
         key={index}
       >
         <div className="modal-content">
-          <h1 className="robotoBold">{modalInfo.title}</h1>
-          <p className="robotoRegular">{modalInfo.content}</p>
-          <button onClick={modalClose}>Close</button>
+          <img src={closeCross} alt="Close Cross" className="close" onClick={modalClose}/>
+          <div className="modalText">
+            <h1 className="robotoBold">{modalInfo.title}</h1>
+            <p className="robotoRegular">{modalInfo.content}</p>
+          </div>
         </div>
       </div>
     )
