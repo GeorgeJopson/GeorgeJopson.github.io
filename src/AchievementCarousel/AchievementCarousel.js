@@ -42,12 +42,14 @@ function AchievementCarousel(){
       </div>
   );
   const modalsInfo = achievements.map((achievement)=>{
-    return achievement.title
+    return {
+      title:achievement.title
+    }
   });
 
   return(
     <div>
-      <Modals modalOpen={openModalIndex} modalsInfo={modalsInfo} modalClose={()=>setOpenModalIndex(-1)}/>
+      <Modals openModalIndex={openModalIndex} modalsInfo={modalsInfo} modalClose={()=>setOpenModalIndex(-1)}/>
       <Carousel
         swipeable={true}
         draggable={true}
