@@ -4,6 +4,7 @@ import './fonts.css';
 import Header from "./Header/Header.js";
 import AchievementCarousel from './AchievementCarousel/AchievementCarousel.js';
 import Bio from "./Bio/Bio.js";
+import WorkExperience from './WorkExperience/WorkExperience.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <AchievementCarousel />
       <Bio />
+      <WorkExperience />
     </div>
   );
 }
