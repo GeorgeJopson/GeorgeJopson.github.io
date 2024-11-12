@@ -4,7 +4,7 @@ import '../buttons.css';
 
 function Header(){
   return (
-    <div className='header'>
+    <div className='header' id="header">
       <ProfilePic />
       <HeaderTitleoBox />
     </div>

@@ -1,0 +1,11 @@
+.navbarContainer{
+  background-color: #747fe0;
+  position: fixed;
+  top:0;
+  width: 95%;
+  z-index: 10000;
+}
+
+.navbarText{
+  margin-bottom:0;
+}

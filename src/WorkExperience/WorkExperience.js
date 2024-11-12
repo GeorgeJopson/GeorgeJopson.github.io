@@ -5,7 +5,7 @@ import AchievementCarousel from '../AchievementCarousel/AchievementCarousel';
 
 function WorkExperience(){
   return (
-    <div className='containerBox'>
+    <div className='containerBox' id="work-experience">
       <p className="robotoRegular">This is some text about work experience</p>
       <AchievementCarousel />
     </div>
