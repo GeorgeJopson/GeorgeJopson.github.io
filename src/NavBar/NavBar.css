@@ -1,11 +1,7 @@
-.navbarContainer{
-  background-color: #747fe0;
-  position: fixed;
-  top:0;
-  width: 95%;
-  z-index: 10000;
-}
-
-.navbarText{
-  margin-bottom:0;
+.navbar{
+  background-color: #f6f9fc;
+  padding: 10px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color:black;
 }

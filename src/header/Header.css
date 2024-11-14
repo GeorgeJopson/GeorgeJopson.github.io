@@ -5,7 +5,7 @@
   align-items: center;
 
   margin: 0 5% 15px 0;
-  padding: 1%;
+  padding: 70px 1% 1% 1%;
   border-radius: 0 0 50px 0;
 
   background-color: #747fe0;
@@ -52,7 +52,7 @@
 /* Tablet view */
 @media (max-width: 768px) {
   .header{
-    padding: 3.5%;
+    padding: 70px 3.5% 3.5% 3.5%;
   }
   .profilePicWrapper{
     width: 50%;
@@ -66,7 +66,7 @@
 /* Mobile view */
 @media (max-width: 480px) {
   .header{
-    padding:7%;
+    padding: 70px 7% 7% 7%;
   }
   .profilePicWrapper{
     width: 65%;
