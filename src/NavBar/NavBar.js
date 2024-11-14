@@ -12,6 +12,9 @@ function Navbar(){
       <a className="navbar-brand robotoRegular" href="#header">George Jopson</a>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
+        <li className="nav-item">
+            <a className="nav-link robotoRegular" href={"#bio"}>Bio</a>
+          </li>
           <li className="nav-item">
             <a className="nav-link robotoRegular" href={"#work-experience"}>Work Experience</a>
           </li>
