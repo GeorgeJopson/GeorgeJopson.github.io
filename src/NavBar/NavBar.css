@@ -5,3 +5,13 @@
   border-width: 0 0 2px 0;
   border-color:black;
 }
+
+.nav-link{
+  font-size: 1em;
+}
+
+.githubIcon{
+  margin-right:1px;
+  height: 1em;
+  width: 1em;
+}

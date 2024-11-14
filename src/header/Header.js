@@ -31,6 +31,7 @@ function HeaderTitleoBox(){
         <div>
           <h1 className='title robotoRegular'>George Jopson</h1>
           <p className="subtitle robotoRegular">Junior Software Developer - georgejopson@gmail.com</p>
+          <p className="subtitle robotoRegular">Github: https://github.com/GeorgeJopson</p>
           <DownloadCVButton />
         </div>
       </div>
