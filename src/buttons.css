@@ -5,10 +5,18 @@
   width: 100%;
 }
 
-.btnRegular:hover,
-.btnRegular:focus,
-.btnRegular:active{
+.btnPurple:hover,
+.btnPurple:focus,
+.btnPurple:active{
   background-color: #f6f9fc !important; 
   color: #747fe0 !important;
+  border-color: #f6f9fc !important;
+}
+
+.btnPink:hover,
+.btnPink:focus,
+.btnPink:active{
+  background-color: #f6f9fc !important; 
+  color: #EF767A !important;
   border-color: #f6f9fc !important;
 }
