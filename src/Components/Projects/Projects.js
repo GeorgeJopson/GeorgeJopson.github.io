@@ -3,27 +3,47 @@ import '../../stylings/fonts.css';
 import '../../stylings/colors.css';
 import '../../stylings/buttons.css';
 
+import projectsData from "./projects.json"
+
 function Projects(){
+  const projectInfoBoxes = projectsData.projects.map(
+    (projectData)=>{
+      return(
+        <ProjectBox 
+        name={projectData.name}
+        imageInfo={{
+          "src":projectData.imageInfo.src,
+          "alt":projectData.imageInfo.alt
+        }}
+        portfolioText={projectData.portfolioText}
+        repoInfo={{
+          "name":projectData.repoInfo.name,
+          "repoLink":projectData.repoInfo.repoLink
+        }}
+        key={projectData.name}
+        />
+      );
+    }
+  )
+
   return(
     <div className="projectsSection" id="projects">
       <h1 className="robotoMedium subTitleText">Personal Projects:</h1>
-      <ProjectBox />
-      <ProjectBox />
-      <ProjectBox />
+      {projectInfoBoxes}
     </div>
   );
 }
 
-function ProjectBox(){
+function ProjectBox({name, imageInfo, portfolioText, repoInfo}){
   return(
     <div className="projectBox">
-      <h2 className="robotoRegular subtitleText">Portfolio Website:</h2>
+      <h2 className="robotoRegular subtitleText">{name}:</h2>
       <div className="projectInfoBox">
-        <img src='/portfolioWebsite.JPG' alt='Portfolio website' className='projectInfoImage'/>
+        <img src={imageInfo["src"]} alt={imageInfo["alt"]} className='projectInfoImage'/>
         <div className="projectInfoText">
-          <p className="robotoRegular paragraphText">I created this portfolio website using React and Bootsrap.</p>
-          <a href={'/George-Jopson-CV.pdf'} target="_blank" rel="noreferrer">
-            <button className="btn btn-outline-primary robotoRegular subtitleText outlineBtnForRegularBackground">Github Repo</button>
+          <p className="robotoRegular paragraphText">{portfolioText}</p>
+          <a href={repoInfo["repoLink"]} target="_blank" rel="noreferrer">
+            <button className="btn btn-outline-primary robotoRegular subtitleText outlineBtnForRegularBackground">{repoInfo["name"]}</button>
           </a>
         </div>
       </div>

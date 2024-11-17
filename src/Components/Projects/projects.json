@@ -1,0 +1,16 @@
+{
+  "projects":[
+    {
+      "name":"Portfolio Website",
+      "imageInfo":{
+          "src":"/portfolioWebsite.JPG",
+          "alt":"Portfolio Website"
+      },
+      "portfolioText":"I created this portfolio website using React and Bootsrap.",
+      "repoInfo":{
+        "name":"Github Repo",
+        "repoLink":"https://github.com/GeorgeJopson/GeorgeJopson.github.io"
+      }
+    }
+  ]
+}
