@@ -17,7 +17,7 @@ function ProfilePic(){
     <div className = "profilePicWrapper">
         <img
           className='profilePic' 
-          src={`${process.env.PUBLIC_URL}/profile.jpeg`} 
+          src={'/profile.jpeg'} 
           alt='George Jopson standing in front of the Difference Engine'
           />
       </div>
@@ -27,9 +27,9 @@ function ProfilePic(){
 function HeaderTitleoBox(){
   return(
     <div className="titleBox">
-        <h1 className="title robotoRegular">&gt;</h1>
+        <h1 className="headerTitle robotoRegular">&gt;</h1>
         <div>
-          <h1 className='title robotoRegular'>George Jopson</h1>
+          <h1 className='headerTitle robotoRegular'>George Jopson</h1>
           <p className="subtitle robotoRegular smallParagraphText">Junior Software Developer - georgejopson@gmail.com</p>
           <p className="subtitle robotoRegular smallParagraphText">Github: <a href="https://github.com/GeorgeJopson" className="subtitle robotoRegular" target="_blank" rel="noreferrer">https://github.com/GeorgeJopson</a></p>
           <DownloadCVButton />
@@ -40,8 +40,8 @@ function HeaderTitleoBox(){
 
 function DownloadCVButton(){
   return(
-    <a className="downloadAnchor" href={`${process.env.PUBLIC_URL}/George-Jopson-CV.pdf`} target="_blank" rel="noreferrer">
-      <button type="button" className="btn btn-outline-primary btn-large robotoMedium btnRegular btnCV btnPurple">Download CV</button>
+    <a href={'/George-Jopson-CV.pdf'} target="_blank" rel="noreferrer">
+      <button type="button" className="btn btn-outline-primary btn-large robotoMedium headerText btnRegular outlineBtnPurple">Download CV</button>
     </a>
   );
 }

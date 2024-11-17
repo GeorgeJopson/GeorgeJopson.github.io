@@ -5,17 +5,17 @@
   width: 100%;
 }
 
-.btnPurple:hover,
-.btnPurple:focus,
-.btnPurple:active{
+.outlineBtnPurple:hover,
+.outlineBtnPurple:focus,
+.outlineBtnPurple:active{
   background-color: #f6f9fc !important; 
   color: #747fe0 !important;
   border-color: #f6f9fc !important;
 }
 
-.btnPink:hover,
-.btnPink:focus,
-.btnPink:active{
+.outlineBtnPink:hover,
+.outlineBtnPink:focus,
+.outlineBtnPink:active{
   background-color: #f6f9fc !important; 
   color: #EF767A !important;
   border-color: #f6f9fc !important;

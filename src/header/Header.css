@@ -29,7 +29,7 @@
   transform: scale(1.4) rotate(5deg);
 }
 
-.title{
+.headerTitle{
   color: #f6f9fc;
   font-size: 4.5em;
   margin-bottom: 10px;
@@ -44,10 +44,6 @@
   text-align: left;
 }
 
-.btnCV{
-  font-size: 2em;
-}
-
 /* Tablet view */
 @media (max-width: 768px) {
   .header{
@@ -57,7 +53,7 @@
     width: 50%;
     height: 50%;
   }
-  .title {
+  .headerTitle {
     font-size: 3.5em;
   }
 }
@@ -72,7 +68,7 @@
     width: 65%;
     height: 65%;
   }
-  .title {
+  .headerTitle {
     font-size: 2.2em;
   }
 }
