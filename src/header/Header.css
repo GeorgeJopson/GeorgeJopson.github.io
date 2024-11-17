@@ -5,7 +5,7 @@
   align-items: center;
 
   margin: 0 5% 15px 0;
-  padding: 70px 1% 1% 1%;
+  padding: 80px 1% 1% 1%;
   border-radius: 0 0 50px 0;
 
   background-color: #747fe0;
@@ -66,6 +66,7 @@
 @media (max-width: 480px) {
   .header{
     padding: 70px 7% 7% 7%;
+    margin: 0 0 15px 0;
   }
   .profilePicWrapper{
     width: 65%;
