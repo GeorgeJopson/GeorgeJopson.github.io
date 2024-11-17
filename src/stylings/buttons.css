@@ -1,22 +1,22 @@
 .btnRegular{
   --bs-btn-padding-y: 0;
-  color: #f6f9fc;
-  border-color: #f6f9fc;
+  color: var(--background-color);
+  border-color: var(--background-color);
   width: 100%;
 }
 
-.outlineBtnPurple:hover,
-.outlineBtnPurple:focus,
-.outlineBtnPurple:active{
-  background-color: #f6f9fc !important; 
-  color: #747fe0 !important;
-  border-color: #f6f9fc !important;
+.outlineBtnPrimary:hover,
+.outlineBtnPrimary:focus,
+.outlineBtnPrimary:active{
+  background-color: var(--background-color) !important; 
+  color: var(--primary-accent) !important;
+  border-color: var(--background-color) !important;
 }
 
-.outlineBtnPink:hover,
-.outlineBtnPink:focus,
-.outlineBtnPink:active{
-  background-color: #f6f9fc !important; 
-  color: #EF767A !important;
-  border-color: #f6f9fc !important;
+.outlineBtnHighlightWarm:hover,
+.outlineBtnHighlightWarm:focus,
+.outlineBtnHighlightWarm:active{
+  background-color: var(--background-color) !important; 
+  color: var(--highlight-warm) !important;
+  border-color: var(--background-color) !important;
 }

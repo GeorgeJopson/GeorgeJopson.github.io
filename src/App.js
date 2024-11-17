@@ -1,5 +1,6 @@
 import './App.css';
 import './stylings/fonts.css';
+import './stylings/colors.css';
 
 import Header from "./Header/Header.js";
 import Bio from "./Bio/Bio.js";

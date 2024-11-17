@@ -1,6 +1,6 @@
 .containerBox{
   margin: 10px;
-  background-color: #FFE347;
+  background-color: var(--secondary-accent);
   border-radius:10px;
   text-align: left;
   padding: 10px;

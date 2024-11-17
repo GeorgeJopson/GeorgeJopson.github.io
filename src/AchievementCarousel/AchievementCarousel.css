@@ -1,6 +1,6 @@
 .carouselItem{
-  background-color: #EF767A;
-  color: #f6f9fc;
+  background-color: var(--highlight-warm);
+  color: var(--background-color);
 
   padding: 10px;
   border-radius:10px;
