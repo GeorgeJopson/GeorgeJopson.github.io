@@ -22,7 +22,7 @@
   font-style: normal;
 }
 
-.robotoBold {
+b, .robotoBold {
   font-family: "Roboto", serif;
   font-weight: 700;
   font-style: normal;
