@@ -19,7 +19,7 @@ function Navbar(){
   const navbarLinks = sectionDetails.map(
     (detail) => {
       return (
-        <li className="nav-item">
+        <li className="nav-item" key={detail.id}>
           <a className="nav-link robotoRegular paragraphText" href={"#"+detail.id}>{detail.name}</a>
         </li>
       );
