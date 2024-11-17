@@ -1,5 +1,5 @@
 import './Bio.css';
-import '../stylings/fonts.css';
+import '../../stylings/fonts.css';
 
 function Bio(){
   return(

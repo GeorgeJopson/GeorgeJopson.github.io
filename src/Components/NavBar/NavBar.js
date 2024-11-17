@@ -1,7 +1,8 @@
 import './NavBar.css';
-import '../stylings/fonts.css';
-import '../stylings/buttons.css';
-import githubIcon from '../images/github.svg';
+
+import '../../stylings/fonts.css';
+import '../../stylings/buttons.css';
+import githubIcon from '../../images/github.svg';
 
 function Navbar(){
   const sectionDetails = [

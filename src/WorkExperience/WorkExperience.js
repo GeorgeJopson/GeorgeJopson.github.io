@@ -1,6 +1,5 @@
 import './WorkExperience.css';
-import '../stylings/fonts.css';
-import '../stylings/buttons.css';
+
 import achievementData from "./workExperienceAchievements.json"
 import AchievementCarousel from '../AchievementCarousel/AchievementCarousel';
 

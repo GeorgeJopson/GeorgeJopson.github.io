@@ -2,10 +2,10 @@ import './App.css';
 import './stylings/fonts.css';
 import './stylings/colors.css';
 
-import Header from "./Header/Header.js";
-import Bio from "./Bio/Bio.js";
-import WorkExperience from './WorkExperience/WorkExperience.js';
-import Navbar from './NavBar/NavBar.js';
+import Header from "./Components/Header/Header.js";
+import Bio from "./Components/Bio/Bio.js";
+import WorkExperience from './Components/WorkExperience/WorkExperience.js';
+import Navbar from './Components/NavBar/NavBar.js';
 
 function App() {
   return (

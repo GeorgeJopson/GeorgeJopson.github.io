@@ -1,6 +1,7 @@
 import './Header.css';
-import '../stylings/fonts.css';
-import '../stylings/buttons.css';
+
+import '../../stylings/fonts.css';
+import '../../stylings/buttons.css';
 
 function Header(){
   return (

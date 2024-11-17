@@ -1,7 +1,7 @@
 import './Modals.css'; 
-import '../stylings/fonts.css';
 
-import closeCross from '../images/close.svg';
+import '../../stylings/fonts.css';
+import closeCross from '../../images/close.svg';
 
 function Modals({openModalIndex, modalsInfo, modalClose}) {
   const modals = modalsInfo.map((modalInfo,index)=>{
