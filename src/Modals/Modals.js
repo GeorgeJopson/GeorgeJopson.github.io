@@ -23,8 +23,8 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
         <div className="modal-content">
           <img src={closeCross} alt="Close Cross" className="close" onClick={modalClose}/>
           <div className="modalText">
-            <h1 className="robotoBold">{modalInfo.title}</h1>
-            <p className="robotoRegular">{modalInfo.content}</p>
+            <h1 className="robotoBold headerText">{modalInfo.title}</h1>
+            <p className="robotoRegular paragraphText">{modalInfo.content}</p>
           </div>
         </div>
       </div>

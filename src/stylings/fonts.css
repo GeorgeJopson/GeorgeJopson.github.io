@@ -69,3 +69,19 @@
   font-weight: 900;
   font-style: italic;
 }
+
+.paragraphText{
+  font-size: 1.25em;
+}
+
+.subtitleText{
+  font-size: 1.5em;
+}
+
+.headerText{
+  font-size: 2em;
+}
+
+.titleText{
+  font-size: 4em;
+}

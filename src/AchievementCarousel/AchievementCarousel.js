@@ -37,8 +37,8 @@ function AchievementCarousel(){
   const achievements = achievementData.achievements
   const carouselItems = achievements.map((achievement, index)=>
       <div className="carouselItem" key={index}>
-        <p className="robotoMedium carouselItemText">{achievement.title}</p>
-        <button className="btnSeeMore btn btn-outline-primary btnRegular btnPink" onClick={()=>setOpenModalIndex(index)}>See More ...</button>
+        <p className="robotoMedium carouselItemText headerText">{achievement.title}</p>
+        <button className="btnSeeMore btn btn-outline-primary btnRegular btnPink robotoRegular headerText" onClick={()=>setOpenModalIndex(index)}>See More ...</button>
       </div>
   );
   const modalsInfo = achievements.map((achievement)=>{
@@ -57,7 +57,7 @@ function AchievementCarousel(){
         responsive={responsive}
         ssr={true}
         infinite={true}
-        autoPlay={isMobile === false}
+        autoPlay={false}
         autoPlaySpeed={3000}
         keyBoardControl={true}
         customTransition="transform 0.7s ease-in-out"

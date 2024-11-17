@@ -13,8 +13,6 @@
   justify-content:space-between;
 
   text-align: left;
-  font-size: 2em;
-
   height: 90%;
 }
 
@@ -26,7 +24,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 
-  font-size: 1em;
+  font-size: 2em;
   line-height:1.3em;
   height:3.1em;
 
@@ -35,7 +33,7 @@
 
 
 .btnSeeMore{
-  font-size: 1em;
+  font-size: 2em;
   
   display: flex;
   justify-content: center;
