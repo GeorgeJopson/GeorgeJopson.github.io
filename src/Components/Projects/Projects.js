@@ -1,6 +1,7 @@
 import './Projects.css';
 import '../../stylings/fonts.css';
 import '../../stylings/colors.css';
+import '../../stylings/buttons.css';
 
 function Projects(){
   return(
@@ -20,7 +21,10 @@ function ProjectBox(){
       <div className="projectInfoBox">
         <img src='/portfolioWebsite.JPG' alt='Portfolio website' className='projectInfoImage'/>
         <div className="projectInfoText">
-          <p className="robotoRegular paragraphText">This is a project I did do</p>
+          <p className="robotoRegular paragraphText">I created this portfolio website using React and Bootsrap.</p>
+          <a href={'/George-Jopson-CV.pdf'} target="_blank" rel="noreferrer">
+            <button className="btn btn-outline-primary robotoRegular subtitleText outlineBtnForRegularBackground">Github Repo</button>
+          </a>
         </div>
       </div>
     </div>

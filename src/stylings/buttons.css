@@ -1,21 +1,45 @@
-.btnRegular{
+.btnTightPadding{
   --bs-btn-padding-y: 0;
-  color: var(--background-color);
-  border-color: var(--background-color);
+}
+
+.btnWide{
   width: 100%;
 }
 
-.outlineBtnPrimary:hover,
-.outlineBtnPrimary:focus,
-.outlineBtnPrimary:active{
+.outlineBtnForRegularBackground{
+  color: var(--primary-accent);
+  border-color: var(--primary-accent);
+}
+
+.outlineBtnForRegularBackground:hover,
+.outlineBtnForRegularBackground:focus,
+.outlineBtnForRegularBackground:active{
+  background-color: var(--primary-accent) !important; 
+  color: var(--background-color) !important;
+  border-color: var(--primary-accent) !important;
+}
+
+.outlineBtnForPrimaryBackground{
+  color: var(--background-color);
+  border-color: var(--background-color);
+}
+
+.outlineBtnForPrimaryBackground:hover,
+.outlineBtnForPrimaryBackground:focus,
+.outlineBtnForPrimaryBackground:active{
   background-color: var(--background-color) !important; 
   color: var(--primary-accent) !important;
   border-color: var(--background-color) !important;
 }
 
-.outlineBtnHighlightWarm:hover,
-.outlineBtnHighlightWarm:focus,
-.outlineBtnHighlightWarm:active{
+.outlineBtnForHighlightWarmBackground{
+  color: var(--background-color);
+  border-color: var(--background-color);
+}
+
+.outlineBtnForHighlightWarmBackground:hover,
+.outlineBtnForHighlightWarmBackground:focus,
+.outlineBtnForHighlightWarmBackground:active{
   background-color: var(--background-color) !important; 
   color: var(--highlight-warm) !important;
   border-color: var(--background-color) !important;
