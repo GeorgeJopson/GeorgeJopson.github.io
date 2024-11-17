@@ -5,8 +5,6 @@ import '../stylings/buttons.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import achievementData from "./achievements.json"
-
 import { isMobile } from "react-device-detect";
 
 import { useState } from 'react';
@@ -31,7 +29,7 @@ const responsive = {
   }
 };
 
-function AchievementCarousel(){
+function AchievementCarousel({achievementData}){
   const [openModalIndex, setOpenModalIndex] = useState(-1);
 
   const achievements = achievementData.achievements

@@ -1,6 +1,7 @@
 import './WorkExperience.css';
 import '../stylings/fonts.css';
 import '../stylings/buttons.css';
+import achievementData from "./workExperienceAchievements.json"
 import AchievementCarousel from '../AchievementCarousel/AchievementCarousel';
 
 function WorkExperience(){
@@ -16,7 +17,7 @@ function WorkExperience(){
         <br/>
         I was part of a team that built a CLI tool for tracking large-scale genomics metadata using Python and MongoDB, with a microservices architecture.
       </p>
-      <AchievementCarousel />
+      <AchievementCarousel achievementData={achievementData}/>
     </div>
 
   );
