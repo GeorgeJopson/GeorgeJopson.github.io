@@ -1,6 +1,6 @@
 import './WorkExperience.css';
-import '../fonts.css';
-import '../buttons.css';
+import '../stylings/fonts.css';
+import '../stylings/buttons.css';
 import AchievementCarousel from '../AchievementCarousel/AchievementCarousel';
 
 function WorkExperience(){

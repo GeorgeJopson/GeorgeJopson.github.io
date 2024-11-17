@@ -1,6 +1,6 @@
 import './AchievementCarousel.css';
-import '../fonts.css';
-import '../buttons.css';
+import '../stylings/fonts.css';
+import '../stylings/buttons.css';
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";

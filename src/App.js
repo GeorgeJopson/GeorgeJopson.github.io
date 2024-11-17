@@ -1,5 +1,5 @@
 import './App.css';
-import './fonts.css';
+import './stylings/fonts.css';
 
 import Header from "./Header/Header.js";
 import Bio from "./Bio/Bio.js";

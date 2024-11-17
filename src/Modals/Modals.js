@@ -1,5 +1,5 @@
 import './Modals.css'; 
-import '../fonts.css';
+import '../stylings/fonts.css';
 
 import closeCross from '../images/close.svg';
 
