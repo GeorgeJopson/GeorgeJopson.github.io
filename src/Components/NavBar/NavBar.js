@@ -13,6 +13,10 @@ function Navbar(){
     {
       "id":"work-experience",
       "name":"Work Experience"
+    },
+    {
+      "id":"projects",
+      "name":"Projects"
     }
   ]
 
