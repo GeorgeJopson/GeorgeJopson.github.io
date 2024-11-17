@@ -57,7 +57,7 @@ function AchievementCarousel(){
         responsive={responsive}
         ssr={true}
         infinite={true}
-        autoPlay={false}
+        autoPlay={isMobile === false}
         autoPlaySpeed={3000}
         keyBoardControl={true}
         customTransition="transform 0.7s ease-in-out"
