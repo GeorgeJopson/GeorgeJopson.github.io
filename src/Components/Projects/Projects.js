@@ -16,7 +16,13 @@ function Projects(){
 function ProjectBox(){
   return(
     <div className="projectBox">
-      <p className="robotoRegular paragraphText">This is a project I did do</p>
+      <h2 className="robotoRegular subtitleText">Portfolio Website:</h2>
+      <div className="projectInfoBox">
+        <img src='/portfolioWebsite.JPG' alt='Portfolio website' className='projectInfoImage'/>
+        <div className="projectInfoText">
+          <p className="robotoRegular paragraphText">This is a project I did do</p>
+        </div>
+      </div>
     </div>
   );
 }
