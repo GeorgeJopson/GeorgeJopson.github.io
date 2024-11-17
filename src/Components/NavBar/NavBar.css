@@ -11,3 +11,7 @@
   height: 1em;
   width: 1em;
 }
+
+html {
+  scroll-padding-top: 70px;  /* Adjust the value to match the height of your navbar */
+}
