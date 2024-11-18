@@ -17,6 +17,10 @@ function Navbar(){
     {
       "id":"projects",
       "name":"Projects"
+    },
+    {
+      "id":"uni",
+      "name":"Uni"
     }
   ]
 
