@@ -10,7 +10,11 @@
       "repoInfo":{
         "name":"Github Repo",
         "repoLink":"https://github.com/GeorgeJopson/GeorgeJopson.github.io"
-      }
+      },
+      "skills":[
+        "React",
+        "Bootstrap"
+      ]
     }
   ]
 }

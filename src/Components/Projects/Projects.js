@@ -20,6 +20,7 @@ function Projects(){
           "name":projectData.repoInfo.name,
           "repoLink":projectData.repoInfo.repoLink
         }}
+        skills={projectData.skills}
         key={projectData.name}
         />
       );
@@ -34,14 +35,22 @@ function Projects(){
   );
 }
 
-function ProjectBox({name, imageInfo, portfolioText, repoInfo}){
+function ProjectBox({name, imageInfo, portfolioText, repoInfo, skills}){
+  const skillsBoxes = skills.map((skill)=>
+    <div className="skillBox robotoRegular paragraphText" key={skill}>
+      {skill}
+    </div>
+  );
   return(
     <div className="projectBox">
       <h2 className="robotoRegular subtitleText">{name}:</h2>
       <div className="projectInfoBox">
         <img src={imageInfo["src"]} alt={imageInfo["alt"]} className='projectInfoImage'/>
         <div className="projectInfoText">
-          <p className="robotoRegular paragraphText">{portfolioText}</p>
+          <p className="robotoRegular paragraphText projectDescription">{portfolioText}</p>
+          <div className="skillsGroup">
+            {skillsBoxes}
+          </div>
           <a href={repoInfo["repoLink"]} target="_blank" rel="noreferrer">
             <button className="btn btn-outline-primary robotoRegular subtitleText outlineBtnForRegularBackground">{repoInfo["name"]}</button>
           </a>
