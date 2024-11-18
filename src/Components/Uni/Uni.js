@@ -4,7 +4,7 @@ import '../../stylings/colors.css';
 
 function Uni(){
   return(
-    <div className="bioBox" id="uni">
+    <div className="uniContainerBox" id="uni">
       <h1 className="robotoMedium subTitleText">Uni:</h1>
       <ul>
         <li className="robotoRegular paragraphText">Studying for Bachelor of Engineering in Computer Science (2022 - 2026)</li>
