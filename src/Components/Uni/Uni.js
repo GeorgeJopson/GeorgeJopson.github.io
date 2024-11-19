@@ -5,21 +5,27 @@ import '../../stylings/colors.css';
 import modulesData from "./modules.json";
 
 function Uni(){
-  const moduleBoxes = modulesData.modules.map((module)=>{
+  const modules = modulesData.modules
+  const sortedModules = modules.sort(
+    (a, b) => b.score*b.year*b.importance - a.score*a.year*a.importance
+  )
+
+  const moduleBoxes = sortedModules.map((module)=>{
     const e = 2.71828;
     const offset = 80;
     const stretch = 8;
 
     let colorPercentage = 100/(1+e**(-((module.score-offset)/stretch)));
+    colorPercentage = colorPercentage-10;
     colorPercentage = Math.min(colorPercentage, 100);
-    colorPercentage = Math.max(colorPercentage, 0);
+    colorPercentage = Math.max(colorPercentage, 10);
 
     return(
       <div className="module" key={module.code} style={
         {backgroundColor: `color-mix(in hsl, var(--highlight-light), var(--highlight-intense) ${colorPercentage}%)`}
       }>
         <p className="robotoMedium subtitleText moduleName">{module.code}</p>
-        <p className="robotoMedium subtitleText moduleScore">{module.score}</p>
+        <p className="robotoMedium subtitleText moduleScore">{module.score}%</p>
       </div> 
     );
   });
