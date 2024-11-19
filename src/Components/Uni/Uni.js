@@ -24,7 +24,7 @@ function Uni(){
       <div className="module" key={module.code} style={
         {backgroundColor: `color-mix(in hsl, var(--highlight-light), var(--highlight-intense) ${colorPercentage}%)`}
       }>
-        <p className="robotoMedium subtitleText moduleName">{module.code}</p>
+        <p className="robotoMedium subtitleText moduleName">{module.code}: Year {module.year}</p>
         <p className="robotoMedium subtitleText moduleScore">{module.score}%</p>
       </div> 
     );
