@@ -4,6 +4,9 @@ import '../../stylings/colors.css';
 
 import modulesData from "./modules.json";
 
+import { Tooltip, OverlayTrigger } from 'react-bootstrap';
+
+
 function Uni(){
   const modules = modulesData.modules
   const sortedModules = modules.sort(
@@ -19,14 +22,21 @@ function Uni(){
     colorPercentage = colorPercentage-10;
     colorPercentage = Math.min(colorPercentage, 100);
     colorPercentage = Math.max(colorPercentage, 10);
-
+    const tooltip = (
+      <Tooltip id="tooltip">
+        <b className="robotoRegular">{module.name}</b>
+      </Tooltip>
+    );
     return(
-      <div className="module" key={module.code} style={
+      <OverlayTrigger placement="top" overlay={tooltip}>
+            <div className="module" key={module.code} style={
         {backgroundColor: `color-mix(in hsl, var(--highlight-light), var(--highlight-intense) ${colorPercentage}%)`}
       }>
         <p className="robotoMedium subtitleText moduleName">{module.code}: Year {module.year}</p>
         <p className="robotoMedium subtitleText moduleScore">{module.score}%</p>
       </div> 
+      </OverlayTrigger>
+
     );
   });
   
