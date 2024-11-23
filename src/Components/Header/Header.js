@@ -42,9 +42,10 @@ function HeaderTitleoBox(){
 function DownloadCVButton(){
   return(
     <a href={'/George-Jopson-CV.pdf'} target="_blank" rel="noreferrer">
-      <button type="button" className="btn btn-outline-primary btn-large robotoMedium headerText btnTightPadding btnWide outlineBtnForPrimaryBackground">Download CV</button>
+      <button type="button" className="outlineBtn robotoMedium headerText btnTightPadding btnWide outlineBtnForPrimaryBackground">Download CV</button>
     </a>
   );
+  
 }
 
 export default Header;
