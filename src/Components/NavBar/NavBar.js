@@ -5,7 +5,6 @@ import './NavBar.css';
 
 import '../../stylings/fonts.css';
 import '../../stylings/buttons.css';
-import githubIcon from '../../images/github.svg';
 
 function CustomNavbar() {
   const sectionDetails = [
@@ -19,10 +18,10 @@ function CustomNavbar() {
     <Navbar
       expand="lg"
       fixed="top"
-      className="navbarExtraStyling robotoRegular subtitleText"
+      className = "navbar"
     >
-      <Container>
-        <Navbar.Brand href="#header">George Jopson</Navbar.Brand>
+      <Container className="navbarContainer">
+        <Navbar.Brand href="#header" className="robotoRegular subtitleText">George Jopson</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="me-auto">
@@ -41,7 +40,6 @@ function CustomNavbar() {
               rel="noreferrer"
               className="robotoRegular paragraphText"
             >
-              <img src={githubIcon} alt="Github Icon" className="githubIcon" />
               Github
             </Nav.Link>
           </Nav>

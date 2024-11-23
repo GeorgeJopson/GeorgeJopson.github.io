@@ -71,21 +71,21 @@ b, .robotoBold {
 }
 
 .smallParagraphText{
-  font-size: 1em;
+  font-size: 1rem !important;
 }
 
 .paragraphText{
-  font-size: 1.25em;
+  font-size: 1.25rem !important;
 }
 
 .subtitleText{
-  font-size: 1.5em;
+  font-size: 1.5rem !important;
 }
 
 .headerText{
-  font-size: 2em;
+  font-size: 2rem !important;
 }
 
 .titleText{
-  font-size: 4em;
+  font-size: 4rem !important;
 }
