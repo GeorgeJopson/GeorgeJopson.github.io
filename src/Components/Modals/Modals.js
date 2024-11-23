@@ -16,11 +16,11 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
 
     return(
       <div 
-        className={"modal "+modalClass}
+        className={"modalContainer "+modalClass}
         onClick={handleOutsideModalClick}
         key={index}
       >
-        <div className="modal-content">
+        <div className="modalContent">
           <img src={closeCross} alt="Close Cross" className="close" onClick={modalClose}/>
           <div className="modalText">
             <h1 className="robotoBold headerText">{modalInfo.title}</h1>
