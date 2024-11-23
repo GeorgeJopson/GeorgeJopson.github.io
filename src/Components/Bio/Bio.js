@@ -5,6 +5,7 @@ function Bio(){
   return(
     <div className="bioBox" id="bio">
       <h1 className="robotoMedium subTitleText">Bio:</h1>
+      <p className='robotoRegular paragraphText'>Hi, I'm George. I'm a software developer who's passionate about building sustainable, flexible software. In my spare time I do improv comedy and look at cute pictures of hippos.</p>
       <ul>
         <li className="robotoRegular paragraphText"><b>Junior Developer</b> - skilled in <b>Python</b>, <b>Java</b>, and <b>Web Development</b>.</li>
         <li className="robotoRegular paragraphText"><b>Software Developer Intern</b> at Wellcome Sanger Institute – <b>1 year of hands-on experience.</b></li>
