@@ -1,58 +1,54 @@
+import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is included
 import './NavBar.css';
 
 import '../../stylings/fonts.css';
 import '../../stylings/buttons.css';
-import githubIcon from '../../images/github.svg';
 
-function Navbar(){
+function CustomNavbar() {
   const sectionDetails = [
-    {
-      "id":"bio",
-      "name":"Bio"
-    },
-    {
-      "id":"work-experience",
-      "name":"Work Experience"
-    },
-    {
-      "id":"projects",
-      "name":"Projects"
-    },
-    {
-      "id":"uni",
-      "name":"Uni"
-    }
-  ]
+    { id: 'bio', name: 'Bio' },
+    { id: 'work-experience', name: 'Work Experience' },
+    { id: 'projects', name: 'Projects' },
+    { id: 'uni', name: 'Uni' },
+  ];
 
-  const navbarLinks = sectionDetails.map(
-    (detail) => {
-      return (
-        <li className="nav-item" key={detail.id}>
-          <a className="nav-link robotoRegular paragraphText" href={"#"+detail.id}>{detail.name}</a>
-        </li>
-      );
-    }
-  )
+  const navBarLinks = sectionDetails.map((detail) => (
+    <Nav.Link
+      key={detail.id}
+      href={`#${detail.id}`}
+      className="robotoRegular paragraphText"
+    >
+      {detail.name}
+    </Nav.Link>
+  ))
 
   return (
-    <nav className="navbarExtraStyling navbar fixed-top navbar-expand-lg">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <a className="navbar-brand robotoRegular subtitleText" href="#header">George Jopson</a>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          {navbarLinks}
-          <li className="nav-item">
-            <a className="nav-link robotoRegular paragraphText" href={"https://github.com/GeorgeJopson"} target="_blank" rel="noreferrer">
-              <img src={githubIcon} alt="Github Icon" className="githubIcon"/>
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className = "navbar"
+    >
+      <Container className="navbarContainer">
+        <Navbar.Brand href="#header" className="robotoRegular subtitleText">George Jopson</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarNav" />
+        <Navbar.Collapse id="navbarNav">
+          <Nav>
+            {navBarLinks}
+            <Nav.Link
+              href="https://github.com/GeorgeJopson"
+              target="_blank"
+              rel="noreferrer"
+              className="robotoRegular paragraphText"
+            >
               Github
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
-export default Navbar;
+
+export default CustomNavbar;

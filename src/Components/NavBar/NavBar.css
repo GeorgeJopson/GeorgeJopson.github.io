@@ -1,6 +1,6 @@
 .navbar{
   background-color: var(--background-color);
-  padding: 10px;
+  padding: 0;
   border-style: solid;
   border-width: 0 0 2px 0;
   border-color:var(--text-color);
@@ -13,5 +13,9 @@
 }
 
 html {
-  scroll-padding-top: 70px;  /* Adjust the value to match the height of your navbar */
+  scroll-padding-top: 55px;
+}
+
+.navbarContainer{
+  margin-left: 10px;
 }

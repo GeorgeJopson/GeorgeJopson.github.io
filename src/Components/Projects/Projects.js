@@ -52,7 +52,7 @@ function ProjectBox({name, imageInfo, portfolioText, repoInfo, skills}){
             {skillsBoxes}
           </div>
           <a href={repoInfo["repoLink"]} target="_blank" rel="noreferrer">
-            <button className="btn btn-outline-primary robotoRegular subtitleText outlineBtnForRegularBackground">{repoInfo["name"]}</button>
+            <button className="outlineBtn robotoRegular subtitleText outlineBtnForRegularBackground">{repoInfo["name"]}</button>
           </a>
         </div>
       </div>
