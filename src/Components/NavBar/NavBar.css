@@ -1,6 +1,6 @@
 .navbar{
   background-color: var(--background-color);
-  padding: 10px;
+  padding: 0;
   border-style: solid;
   border-width: 0 0 2px 0;
   border-color:var(--text-color);
@@ -13,7 +13,7 @@
 }
 
 html {
-  scroll-padding-top: 80px;
+  scroll-padding-top: 55px;
 }
 
 .navbarContainer{

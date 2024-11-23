@@ -14,6 +14,16 @@ function CustomNavbar() {
     { id: 'uni', name: 'Uni' },
   ];
 
+  const navBarLinks = sectionDetails.map((detail) => (
+    <Nav.Link
+      key={detail.id}
+      href={`#${detail.id}`}
+      className="robotoRegular paragraphText"
+    >
+      {detail.name}
+    </Nav.Link>
+  ))
+
   return (
     <Navbar
       expand="lg"
@@ -24,16 +34,8 @@ function CustomNavbar() {
         <Navbar.Brand href="#header" className="robotoRegular subtitleText">George Jopson</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
-          <Nav className="me-auto">
-            {sectionDetails.map((detail) => (
-              <Nav.Link
-                key={detail.id}
-                href={`#${detail.id}`}
-                className="robotoRegular paragraphText"
-              >
-                {detail.name}
-              </Nav.Link>
-            ))}
+          <Nav>
+            {navBarLinks}
             <Nav.Link
               href="https://github.com/GeorgeJopson"
               target="_blank"
