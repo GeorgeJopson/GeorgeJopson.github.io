@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 10px; 
-  max-height: 400px;
+  max-height: 350px;
   overflow-y: auto;
   overflow-x: hidden;
 }
