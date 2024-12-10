@@ -12,6 +12,7 @@ function CustomNavbar() {
     { id: 'work-experience', name: 'Work Experience' },
     { id: 'projects', name: 'Projects' },
     { id: 'uni', name: 'Uni' },
+    { id: 'technicalSkillsSection', name : 'Skills'}
   ];
 
   const navBarLinks = sectionDetails.map((detail) => (

@@ -4,6 +4,7 @@
   --primary-accent: #485696;
   --secondary-accent: #00A5CF;
   --highlight-light: #F9C784;
+  --highlight-light-transparent: rgba(249, 199, 132, 0.5);
   --highlight-warm: #FC7A1E;
   --highlight-intense: #F24C00;
 }
