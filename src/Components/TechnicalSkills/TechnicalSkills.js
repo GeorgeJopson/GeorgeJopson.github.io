@@ -55,7 +55,7 @@ function AccordionInfoSection({title, sections}){
       <Accordion>
         {sections.map((section,index) =>{
           return(
-            <Accordion.Item eventKey={index}>
+            <Accordion.Item eventKey={index} key={index}>
               <Accordion.Header><span className="robotoBold">{section.title}</span></Accordion.Header>
               <Accordion.Body>
                 {section.text}
