@@ -1,0 +1,34 @@
+{
+  "skillAreas":[
+    {
+      "title":"Technical Skills - Languages and Tools:",
+      "entries":[
+        {
+          "title":"Python (Intermediate)",
+          "text":"I am intermediately skilled at Python having used it in projects such as shelf."
+        },
+        {
+          "title":"Web Dev (Beginner)",
+          "text":"I completed the 100 hour web dev course and custom built this website using react. I am familiar with many web development concepts although it hasn't been my primary focus."
+        },
+        {
+          "title":"Java (Beginner)",
+          "text":"I used Java in my uni degree to develop many different projects."
+        }
+      ]
+    },
+    {
+      "title":"Technical Skills - Development Practices:",
+      "entries":[
+        {
+          "title":"Test Driven Design",
+          "text":"I learnt about test driven design."
+        },
+        {
+          "title":"Clean Code",
+          "text":"I have read Clean Coder and Clean Code."
+        }
+      ]
+    }
+  ]
+}
