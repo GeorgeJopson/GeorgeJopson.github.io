@@ -1,0 +1,16 @@
+#contact{
+  margin-top: 20px;
+  padding: 2%;
+  background-color: var(--primary-accent);
+  border-radius: 50px 50px 0 0;
+  color: white;
+}
+
+.contactLink{
+  color: white;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;    
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word;
+}

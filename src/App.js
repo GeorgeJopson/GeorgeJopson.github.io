@@ -9,6 +9,7 @@ import Navbar from './Components/NavBar/NavBar.js';
 import Projects from './Components/Projects/Projects.js';
 import Uni from './Components/Uni/Uni.js';
 import TechnicalSkills from './Components/TechnicalSkills/TechnicalSkills.js';
+import Contact from './Components/Contact/Contact.js'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Uni />
       <TechnicalSkills />
+      <Contact />
     </div>
   );
 }

@@ -12,7 +12,8 @@ function CustomNavbar() {
     { id: 'work-experience', name: 'Work Experience' },
     { id: 'projects', name: 'Projects' },
     { id: 'uni', name: 'Uni' },
-    { id: 'technicalSkillsSection', name : 'Tech Skills'}
+    { id: 'technicalSkillsSection', name: 'Tech Skills'},
+    { id: 'contact', name: 'Contact'}
   ];
 
   const navBarLinks = sectionDetails.map((detail) => (
@@ -37,14 +38,6 @@ function CustomNavbar() {
         <Navbar.Collapse id="navbarNav">
           <Nav>
             {navBarLinks}
-            <Nav.Link
-              href="https://github.com/GeorgeJopson"
-              target="_blank"
-              rel="noreferrer"
-              className="robotoRegular paragraphText"
-            >
-              Github
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
