@@ -1,0 +1,24 @@
+{
+  "achievements":[
+    {
+      "title":"Agile",
+      "content":"I gained Professional Scrum Master I and Professional Scrum Product Owner I certifications (which you can see here: https://www.scrum.org/user/1495821). With this knowledge, I took on Scrum Master responsibilities for my team where I helped refocus my team on delivering valuable increments." 
+    },
+    {
+      "title":"Python",
+      "content":"The primary language I used while working at Sanger was Python. I became familiar with libraries such as Pydantic, Fastapi, Pytest as well as becoming familiar with Python’s OOP features."
+    },
+    {
+      "title":"Microservices",
+      "content":"The product I worked on used a microservice architecture, where we faced data consistency challenges. Initially tasked with researching solutions like 2-Phase Commit and the Saga Pattern, I helped my team choose an eventual consistency approach based on my findings."
+    },
+    {
+      "title":"Test Driven Development",
+      "content":"After being introduced to test-driven development, the “red-green-refactor” cycle is now my primary development workflow. This let me write cleaner and safer code."
+    },
+    {
+      "title":"DevOps",
+      "content":"I learnt some DevOps skills while working at Sanger. I updated dockerfiles/docker-compose files to patch security bugs and add the ability to spin up MySQL/MongoDB instances locally. I also learnt some of the basics of Kubernetes (which was used to deploy our microservices)."
+    }
+  ]
+}
