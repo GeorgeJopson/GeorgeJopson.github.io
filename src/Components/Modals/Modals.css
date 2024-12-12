@@ -41,3 +41,6 @@
   width:50px;
 }
 
+.modalContent a{
+  color: var(--primary-accent)
+}
