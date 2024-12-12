@@ -1,6 +1,6 @@
 import './Header.css';
 
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import '../../stylings/buttons.css';
 
 import { useState, useEffect } from "react";

@@ -89,3 +89,11 @@ b, .robotoBold {
 .titleText{
   font-size: 4rem !important;
 }
+
+.wordWrap{
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;    
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word;
+}

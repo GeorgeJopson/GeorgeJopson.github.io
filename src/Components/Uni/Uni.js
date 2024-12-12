@@ -1,5 +1,5 @@
 import './Uni.css';
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import '../../stylings/colors.css';
 
 import modulesData from "./modules.json";

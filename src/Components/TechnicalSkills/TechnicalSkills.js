@@ -1,4 +1,4 @@
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import '../../stylings/colors.css';
 import '../../stylings/buttons.css';
 import './TechnicalSkills.css';

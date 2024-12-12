@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is included
 import './NavBar.css';
 
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import '../../stylings/buttons.css';
 
 function CustomNavbar() {

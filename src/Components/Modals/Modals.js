@@ -1,6 +1,6 @@
 import './Modals.css'; 
 
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import closeCross from '../../images/close.svg';
 
 function Modals({openModalIndex, modalsInfo, modalClose}) {
@@ -17,7 +17,7 @@ function Modals({openModalIndex, modalsInfo, modalClose}) {
           <img src={closeCross} alt="Close Cross" className="close" onClick={modalClose}/>
           <div className="modalText">
             <h1 className="robotoBold headerText">{modalInfo.title}</h1>
-            <p className="robotoRegular paragraphText modalParagraphText">{modalInfo.content}</p>
+            <p className="robotoRegular paragraphText wordWrap">{modalInfo.content}</p>
           </div>
         </div>
       </div>

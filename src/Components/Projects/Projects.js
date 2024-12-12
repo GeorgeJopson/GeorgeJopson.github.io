@@ -1,5 +1,5 @@
 import './Projects.css';
-import '../../stylings/fonts.css';
+import '../../stylings/text.css';
 import '../../stylings/colors.css';
 import '../../stylings/buttons.css';
 

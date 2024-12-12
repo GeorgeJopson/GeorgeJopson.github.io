@@ -1,5 +1,7 @@
 import './WorkExperience.css';
 
+import '../../stylings/text.css';
+
 import learningData from "./learningData.json"
 import AchievementCarousel from '../AchievementCarousel/AchievementCarousel';
 
@@ -11,7 +13,7 @@ function WorkExperience(){
       <h2 className="robotoMedium subtitleText">Student Placment - Sanger Institute (2024-2025)</h2>
       <p className="robotoRegular workExperienceDescription paragraphText">
       </p>
-      <ul>
+      <ul className='wordWrap'>
         <li className="robotoRegular paragraphText">Refactored microservices to use pytest instead of unittest. Also migrated a microservice from using flask to using fastapi as a web framework.</li>
         <li className="robotoRegular paragraphText">Lead adoption of MongoDB as a database. I initially spearheaded research into MongoDB and Pymongo (the python library used to interact with MongoDB). Then once we clarified that MongoDB was suitable, I wrote the template for implementation of MongoDB. This work was then replicated across all the microservices responsible for storing data.</li>
         <li className="robotoRegular paragraphText">I was part of a team that built a portfolio website for a scientific research group using react: <a href="https://helminthgenomics.sanger.ac.uk/" className="link">https://helminthgenomics.sanger.ac.uk/</a>.</li>

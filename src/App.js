@@ -1,5 +1,5 @@
 import './App.css';
-import './stylings/fonts.css';
+import './stylings/text.css';
 import './stylings/colors.css';
 
 import Header from "./Components/Header/Header.js";
