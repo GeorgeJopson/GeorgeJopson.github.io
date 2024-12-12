@@ -6,14 +6,14 @@
           "src":"/portfolioWebsite.JPG",
           "alt":"Portfolio Website"
       },
-      "portfolioText":"I created this portfolio website using React and Bootsrap.",
+      "portfolioText":"I created this portfolio website using React and React-Bootsrap.",
       "repoInfo":{
         "name":"Github Repo",
         "repoLink":"https://github.com/GeorgeJopson/GeorgeJopson.github.io"
       },
       "skills":[
         "React",
-        "Bootstrap"
+        "React-Bootstrap"
       ]
     }
   ]
