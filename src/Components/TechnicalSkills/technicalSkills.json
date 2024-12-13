@@ -5,15 +5,16 @@
       "entries":[
         {
           "title":"Python (Intermediate)",
-          "text":"I am intermediately skilled at Python having used it in projects such as shelf."
+          "text":"Python was the main language I coded in for my year at the Welcome Sanger Trust. I’m comfortable with object-oriented programming in python, along with general python syntax. I’ve gained experience using libraries like FastAPI, Pydantic, PyMongo, and Pytest while working at Sanger. But I’ve also used Python more widely in projects from data analytics (with libraries like NumPy and Pandas) to neural networks (with libraries like PyTorch) in my university degree."
+          
         },
         {
           "title":"Web Dev (Beginner)",
-          "text":"I completed the 100 hour web dev course and custom built this website using react. I am familiar with many web development concepts although it hasn't been my primary focus."
+          "text":"I am familiar with some web development techniques. In 2020 I completed “The Complete Web Development Boot Camp” which introduced technologies such as HTML, CSS, Bootstrap, Node.Js, React.Js, and MongoDB. I’ve continued these skills into a basic understanding of React.js which let me be part of a team that built a portfolio website for a scientific research group. Additionally, I used React.js to build this portfolio website."
         },
         {
           "title":"Java (Beginner)",
-          "text":"I used Java in my uni degree to develop many different projects."
+          "text":"Java was a primary language I used in university. For example, in ‘Engineering 1: Software & Systems Engineering’ I created a small videogame with a team in Java using an ECS (Event-Component-System) architecture."
         }
       ]
     },
@@ -22,11 +23,11 @@
       "entries":[
         {
           "title":"Test Driven Design",
-          "text":"I learnt about test driven design."
+          "text":"I practiced Test Driven Development as part of my development workflow at the Welcome Sanger Institute. I learnt about this practice via reading books such as Clean Coder by Robert C. Martin, and then via talks by speakers like Ian Cooper."
         },
         {
           "title":"Clean Code",
-          "text":"I have read Clean Coder and Clean Code."
+          "text":"A major part of my role at the Welcome Sanger Institute was the continuous refactoring of code (as specified in the red-green-refactor loop of test-driven development). This was influenced by books like Clean Code and The Clean Coder by Robert C. Martin."
         }
       ]
     }
