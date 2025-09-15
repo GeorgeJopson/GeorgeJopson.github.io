@@ -2,23 +2,23 @@
   "achievements":[
     {
       "title":"Agile",
-      "content":"I gained Professional Scrum Master I and Professional Scrum Product Owner I certifications (which you can see here: [https://www.scrum.org/user/1495821](https://www.scrum.org/user/1495821)). With this knowledge, I took on Scrum Master responsibilities for my team where I helped refocus my team on delivering valuable increments." 
+      "content":"I gained Professional Scrum Master I and Professional Scrum Product Owner I certifications (see here: [https://www.scrum.org/user/1495821](https://www.scrum.org/user/1495821)). After this, I took on Scrum Master responsibilities where I reduced meeting times by keeping Daily Scrums within the time box, introduced better focus on sprint goals, and triggered discussions when we risked missing targets. I also analysed usage metrics with SQL and AI to identify which features delivered value, helping refocus the team on producing increments that mattered."
     },
     {
       "title":"Python",
-      "content":"The primary language I used while working at Sanger was Python. I became familiar with libraries such as Pydantic, Fastapi, Pytest as well as becoming familiar with Python’s OOP features."
+      "content":"Python was my primary language at Sanger, and I became skilled with libraries such as Pydantic, FastAPI, and Pytest. I used Python to solve challenging problems—for example, by reframing a complex querying challenge as a pathfinding problem (inspired by router algorithms) which became the core of a key microservice. I also applied hashing with Python’s UUID library to avoid unnecessary databases, simplifying our metadata service while following the YAGNI principle."
     },
     {
       "title":"Microservices",
-      "content":"The product I worked on used a microservice architecture, where we faced data consistency challenges. Initially tasked with researching solutions like 2-Phase Commit and the Saga Pattern, I helped my team choose an eventual consistency approach based on my findings."
+      "content":"I worked extensively with microservice architectures. I developed infrastructure packages such as `shelf_object_repo` (removing duplicated MongoDB CRUD code) and `shelf_error` (standardising error handling), improving maintainability and debugging. I also collaborated with domain experts to design anti-corruption layers (ACLs), and researched approaches to consistency challenges—helping my team adopt eventual consistency. These contributions turned into foundational parts of the system."
     },
     {
       "title":"Test Driven Development",
-      "content":"After being introduced to test-driven development, the “red-green-refactor” cycle is now my primary development workflow. This let me write cleaner and safer code."
+      "content":"TDD became my primary development workflow. I learnt it through independent study (Clean Code, Kent Beck’s Test Driven Development by Example, Ian Cooper’s talks) and shared this knowledge by giving presentations both internally and at the Wellcome Sanger Fullstack BioDev network. Following the red-green-refactor cycle improved my code quality and confidence in refactoring, and teaching it to others demonstrated my ability to communicate complex technical practices."
     },
     {
       "title":"DevOps",
-      "content":"I learnt some DevOps skills while working at Sanger. I updated dockerfiles/docker-compose files to patch security bugs and add the ability to spin up MySQL/MongoDB instances locally. I also learnt some of the basics of Kubernetes (which was used to deploy our microservices)."
+      "content":"I built DevOps skills by extending Dockerfiles and docker-compose setups, for example enabling local MySQL instances and later MongoDB. I independently learnt Docker via LinkedIn Learning, which later allowed me to debug complex containerisation issues. I also gained exposure to Kubernetes (used for deploying our services). These skills gave me the ability to contribute across development and deployment boundaries, ensuring smoother integration of infrastructure changes."
     }
   ]
 }
