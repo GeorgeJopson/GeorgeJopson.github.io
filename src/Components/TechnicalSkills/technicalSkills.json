@@ -5,12 +5,11 @@
       "entries":[
         {
           "title":"Python (Intermediate)",
-          "text":"Python was the main language I coded in for my year at the Welcome Sanger Trust. I’m comfortable with object-oriented programming in python, along with general python syntax. I’ve gained experience using libraries like FastAPI, Pydantic, PyMongo, and Pytest while working at Sanger. But I’ve also used Python more widely in projects from data analytics (with libraries like NumPy and Pandas) to neural networks (with libraries like PyTorch) in my university degree."
-          
+          "text":"During my time at Sanger, Python was the primary programming language I worked in. I became familiar with libraries such as FastAPI, Pydantic, Pytest, and PyMongo. See the work experience section for more details on the work I completed in Python during my placement year. I’ve also become familiar with Python through my university degree. In the DATA module I used libraries like NumPy, Pandas and Seaborn to analyse bank transfer data and visualise the results (using techniques such as KMeans clustering, decision trees, and linear regression models). In IMLO I created a neural network with PyTorch to classify the Flowers 102 dataset to a ~70% degree of accuracy."
         },
         {
           "title":"Web Dev (Beginner)",
-          "text":"I am familiar with some web development techniques. In 2020 I completed “The Complete Web Development Boot Camp” which introduced technologies such as HTML, CSS, Bootstrap, Node.Js, React.Js, and MongoDB. I’ve continued these skills into a basic understanding of React.js which let me be part of a team that built a portfolio website for a scientific research group. Additionally, I used React.js to build this portfolio website."
+          "text":"I am familiar with web development techniques. I completed “The Complete Web Development Boot Camp” which introduced technologies such as HTML, CSS, Bootstrap, Node.Js, React.Js, and MongoDB. I’ve continued these skills into a basic understanding of React.js which I used to build this website. See the work experience section for more information about how I worked with legacy React code during my time at the Sanger Institute."
         },
         {
           "title":"Java (Beginner)",
@@ -23,11 +22,11 @@
       "entries":[
         {
           "title":"Test Driven Design",
-          "text":"I practiced Test Driven Development as part of my development workflow at the Welcome Sanger Institute. I learnt about this practice via reading books such as Clean Coder by Robert C. Martin, and then via talks by speakers like Ian Cooper."
+          "text":"After studying Test Driven Development by Example (Kent Beck) and Clean Code (Robert C. Martin), I made TDD my standard workflow. I shared my learning through talks at the Wellcome Sanger Institute and the Fullstack BioDev network, where I explained concepts like mocking and iterative testing."
         },
         {
           "title":"Clean Code",
-          "text":"A major part of my role at the Welcome Sanger Institute was the continuous refactoring of code (as specified in the red-green-refactor loop of test-driven development). This was influenced by books like Clean Code and The Clean Coder by Robert C. Martin."
+          "text":"Inspired by Clean Code and Clean Architecture by Robert C. Martin, I’ve adopted principles like meaningful naming, separation of concerns, and SOLID design. I applied these when refactoring legacy systems—for example, decoupling CLI logic using dependency inversion and replacing a singleton with explicit configuration passing to improve testability."
         }
       ]
     }
